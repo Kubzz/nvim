@@ -1,4 +1,10 @@
-# 💤 LazyVim
+# 💤 Nvim Setup
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+## Languages & Frameworks
+
+### GoLang
+
+Ensure go is installed on the system path, then install
+```bash
+go install github.com/go-delve/delve/cmd/dlv@latest
+```
