@@ -1,5 +1,5 @@
 return {
   {
-    "nvim-lua/plenarynvim",
+    "nvim-lua/plenary.nvim",
   },
 }

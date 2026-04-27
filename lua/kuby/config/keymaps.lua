@@ -1,2 +1,2 @@
 keymap = vim.keymap
-keymap.set("n", "l", vim.cmd.Lazy, { desc = "Lazy" })
+keymap.set("n", "<Leader>l", vim.cmd.Lazy, { desc = "Lazy" })

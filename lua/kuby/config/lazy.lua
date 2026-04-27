@@ -19,8 +19,10 @@ vim.g.maplocalleader = "\\"
 
 require("lazy").setup({
   spec = {
+    { import = "kuby.plugins.util" },
     { import = "kuby.plugins.ui" },
     { import = "kuby.plugins.editor" },
+    { import = "kuby.plugins.lsp" },
   },
   install = { colorscheme = { "catppuccin-nvim" } },
   checker = { enabled = true },
