@@ -8,14 +8,12 @@ return {
       spec = {
         { "<Leader>b", group = "Buffer" },
         { "<Leader>c", group = "Code" },
+        { "<Leader>d", group = "Debug" },
         { "<Leader>f", group = "Files" },
         { "<Leader>g", group = "Git" },
+        { "<Leader>j", group = "Java" },
         { "<Leader>p", group = "Problems" },
         { "<Leader>s", group = "Search" },
-      },
-      triggers = {
-        { "<auto>", mode = "nxso" },
-        { "j", mode = "nxso", group = "Java" },
       },
     },
     config = function(_, opts)

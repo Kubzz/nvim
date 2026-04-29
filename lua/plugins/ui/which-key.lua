@@ -10,7 +10,7 @@ return {
         { "<Leader>c", group = "Coding" },
         { "<Leader>f", group = "File Search" },
         { "<Leader>g", group = "Git" },
-        { "<Leader>cj", group = "Java" },
+        { "<Leader>j", group = "Java" },
         { "<Leader>n", group = "Noice" },
         { "<Leader>p", group = "Problems" },
         { "<Leader>s", group = "Search" },

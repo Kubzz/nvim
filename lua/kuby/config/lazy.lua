@@ -23,6 +23,7 @@ require("lazy").setup({
     { import = "kuby.plugins.ui" },
     { import = "kuby.plugins.editor" },
     { import = "kuby.plugins.lsp" },
+    { import = "kuby.plugins.coding" },
   },
   install = { colorscheme = { "catppuccin-nvim" } },
   checker = { enabled = true },

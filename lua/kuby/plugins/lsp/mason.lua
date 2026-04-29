@@ -13,11 +13,14 @@ return {
     opts = {
       ensure_installed = {
 
-        -- Python
-        "basedpyright",
+        -- GoLang
+        "gopls",
 
         -- Lua
         "lua_ls",
+
+        -- Python
+        "basedpyright",
       },
     },
   },
@@ -26,16 +29,22 @@ return {
     opts = {
       ensure_installed = {
 
+        -- GoLang
+        "delve",
+        "golangci-lint",
+        "goimports",
+        "golines",
+
         -- Java
         "google-java-format",
+
+        -- Lua
+        "stylua",
 
         -- Python
         "black",
         "isort",
         "ruff",
-
-        -- Lua
-        "stylua",
       },
     },
     auto_update = true,
