@@ -4,7 +4,9 @@ return {
     ---@type snacks.Config
     opts = {
       bufdelete = {},
+      dim = {},
       explorer = {},
+      git = {},
       lazygit = {},
       picker = {
         sources = {
@@ -30,6 +32,23 @@ return {
         desc = "Delete All Buffer",
       },
 
+      -- Dim
+      {
+        "<leader>cd",
+        function()
+          Snacks.dim.enable()
+        end,
+        desc = "Focus on current scope",
+      },
+      {
+        "<leader>cD",
+        function()
+          Snacks.dim.disable()
+        end,
+        desc = "Focus on whole buffer",
+      },
+
+      -- Files
       {
         "<Leader>ff",
         function()
@@ -80,6 +99,15 @@ return {
           Snacks.explorer.reveal()
         end,
         desc = "Locate Buffer in Explorer",
+      },
+
+      -- Git
+      {
+        "<leader>gb",
+        function()
+          Snacks.git.blame_line()
+        end,
+        desc = "Show Git Blame for current line",
       },
 
       -- LazyGit
